@@ -10,9 +10,9 @@ h1 {
   /*⑤h2 要素を選択するセレクタは？
 */
   font-size: 20px;
-  color: #2a7bb8;
+  color: #778899;
   margin-top: 25px;
   margin-bottom: 15px;
-  border-left: 5px solid #2a7bb8;
+  border-left: 5px solid #778899;
   padding-left: 12px;
 }
