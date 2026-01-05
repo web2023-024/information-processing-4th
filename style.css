@@ -4,7 +4,7 @@ body
   line-height: 1.6;
   color: #1f2933;
   
-  background-color: #dadada;
+  background-color: #c4c4c4;
   margin: 0;
   padding: 20px;
 }
@@ -23,7 +23,7 @@ h1 {
 }
  h2 {
   font-size: 20px;
-  color: #507197;
+  color: #235287;
   margin-top: 25px;
   margin-bottom: 15px;
   border-left: 5px solid #507197;
@@ -60,7 +60,7 @@ nav {
   border-bottom: 1px solid #ccc;
 }
 nav a {
-  color: 	#778899;
+  color: 	#496885;
   text-decoration: none;
   margin: 0 15px;
   font-weight: bold;
@@ -71,7 +71,7 @@ nav a:hover {
   text-decoration: underline;
 }
 a {
-  color: 	#778899;
+  color: 	#24609c;
   text-decoration: none;
 }
 
@@ -82,7 +82,18 @@ img {
   max-width: 100%;
   height: auto;
   margin: 20px 0;
-  border-radius: 10px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+.image-wrapper {
+  display: inline-block;
+  text-align: center;
+}
+.image-credit {
+  font-size: 0.7rem;
+  color: #3c3c3c;
+  margin-top: 6px;
+  line-height: 1.2;
 }
 em {
   display: block;
@@ -92,3 +103,35 @@ em {
   margin-top: 8px;
 }
 .movie-ing {width:200px;height: 300px;object-fit: cover;}
+
+.cast-item {
+  display: flex;
+  align-items: flex-start; /* 上揃え */
+  gap: 20px;              /* 写真と文章の間隔 */
+  margin-bottom: 40px;
+  background-color: rgba(255,255,255,0.03);
+  padding: 20px;
+  border-radius: 12px;
+}
+.cast-item img {
+  width: 200px;      /* 写真サイズは好みで調整 */
+  height: auto;
+ border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+.cast-text {
+  max-width: 600px;
+}
+.cast-text h3 {
+  margin-top: 0;
+}
+.cast-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image-source {
+  font-size: 0.75rem;     /* 小さめ */
+  color: #3c3c3c;            /* 目立たせない */
+  margin-top: 6px;
+}
